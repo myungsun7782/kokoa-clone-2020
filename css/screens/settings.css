@@ -1,0 +1,51 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings__setting-column:first-child {
+  position: relative;
+}
+
+.settings__setting-column:last-child {
+  color: var(--op);
+}
+
+.settings__setting-last {
+  border-bottom: none;
+}
+
+.settings-divider {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.settings__setting-column__new-sign {
+  background-color: tomato;
+  color: white;
+  position: absolute;
+  top: 5px;
+  right: -29px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 10px;
+}
